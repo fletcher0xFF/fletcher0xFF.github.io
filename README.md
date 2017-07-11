@@ -2,9 +2,9 @@
 
 Places I do stuff.
 
-[Twitter](https://twitter.com/fletcher0xFF)
-[Facebook](https://www.facebook.com/fletcher0xFF)
-[Radio3](http://radio3.io/users/fletcher0xFF/)
+- [Twitter](https://twitter.com/fletcher0xFF)
+- [Facebook](https://www.facebook.com/fletcher0xFF)
+- [Radio3](http://radio3.io/users/fletcher0xFF/)
 
 Everything below this is boilerplate I'm keeping around as I learn to use GitHub Pages.
 
