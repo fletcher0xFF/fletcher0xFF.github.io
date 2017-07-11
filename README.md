@@ -1,3 +1,13 @@
+## About Me
+
+Places I do stuff.
+
+[Twitter](https://twitter.com/fletcher0xFF)
+[Facebook](https://www.facebook.com/fletcher0xFF)
+[Radio3](http://radio3.io/users/fletcher0xFF/)
+
+Everything below this is boilerplate I'm keeping around as I learn to use GitHub Pages.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/fletcher0xFF/fletcher0xFF.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
