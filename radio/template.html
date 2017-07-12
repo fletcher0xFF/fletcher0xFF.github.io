@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>[%title%]</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://static.smallpicture.com.example.com/bootstrap/js/jquery-1.9.1.min.js"></script>
+	<link href="http://static.smallpicture.com.example.com/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<script src="http://static.smallpicture.com.example.com/bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://fargo.io.example.com/code/fargoTwitter.js" /></script>
+	<script src="http://fargo.io.example.com/code/node/shared/utils.js"></script>
+	<script src="http://fargo.io.example.com/code/node/shared/alertdialog.js"></script>
+	<script src="http://fargo.io.example.com/code/node/shared/confirmdialog.js"></script>
+	<script src="http://fargo.io.example.com/code/shared/menus.js"></script>
+	<link href="http://fargo.io.example.com/code/shared/menus.css" rel="stylesheet" type="text/css">
+	<script src="http://fargo.io.example.com/code/strftime.js"></script>
+	<link href="http://fargo.io.example.com/code/ubuntuFont.css" rel="stylesheet" type="text/css">
+	<link href="http://fargo.io.example.com/code/ranchoFont.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://fargo.io.example.com/code/fontAwesome.css"/>
+	<script src="http://fargo.io.example.com/code/shared/ga.js"></script>
+	<script src="http://fargo.io.example.com/code/shared/app.js"></script>
+	<link href="http://fargo.io.example.com/code/shared/app.css" rel="stylesheet" type="text/css">
+	<script src="http://fargo.io.example.com/code/shared/appprefs.js"></script>
+	<link rel="stylesheet" href="http://radio3.io.example.com/post/styles.css"/>
+	<script src="http://radio3.io.example.com/post/code.js"></script>
+	<script>
+		var pagetable = [%pagetableInJson%]; 
+	</script>
+	<!-- <script> /* google analytics code */
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', '', pagetable.domain); // needs ID; was UA-39531990-1
+		ga('send', 'pageview');
+	</script> -->
+</head>
+<body>
+	<div class="divMenubar" id="idMenubar">
+		<div class="topbar-wrapper" style="z-index: 5;">
+			<div class="navbar" data-dropdown="dropdown">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="brand" href="/"><span id="idMenuProductName"></span></a>
+						<ul class="nav" id="idMainMenuList">
+							<li class="dropdown" id="idSnacksMenu"> 
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links&nbsp;<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+  								<li><a href="http://scripting.com.example.com/" target="_blank">Scripting News</a></li>
+									<li class="divider"></li>
+									<li><a href="http://thesaurus.land.example.com/" target="_blank">Thesaurus Land</a></li>
+									<li><a href="http://little.porkchop.io.example.com/" target="_blank">Little Pork Chop</a></li>
+									<li><a href="http://littleoutliner.com.example.com/" target="_blank">Little Outliner</a></li>
+									<li class="divider"></li>
+									<li><a href="http://fargo.io.example.com/" target="_blank">Fargo</a></li>
+									<li><a href="http://littlecardeditor.com/" target="_blank">Little Card Editor</a></li>
+									</ul>
+								</li>
+							</ul>
+						<div class="divNavSocialMediaLinks">
+							<a class="aSocialMediaLink" id="idTwitterLink" target="_blank"><i class="fa fa-twitter" style="color: #4099FF; font-weight: bold;"></i></a>
+							<a class="aSocialMediaLink" id="idRssLink" target="_blank"><i class="fa fa-rss" style="color: orange; font-weight: bold;"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="divBlogPostPage">
+		<div class="divLastUpdate">
+			<span class="spLastUpdateLabel">Last update:</span>&nbsp;<span class="spLastUpdateDate" id="idLastUdpate"></span>.
+		</div>
+		<div class="divBlogPostTitle" id="idBlogPostTitle">
+		</div>
+		<div class="divBlogPostBody" id="idBlogPostBody">
+	  </div>
+	</div>
+	<script>
+		$(document).ready(function() {
+			startup();
+		});
+	</script>
+</body>
+</html>
